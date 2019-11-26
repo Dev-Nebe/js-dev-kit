@@ -3,6 +3,6 @@ const firstFunction = require('./index')();
 
 describe('Our first test', () => {
   it('should pass', () => {
-    expect(firstFunction).to.equal(false);
+    expect(firstFunction).to.equal(true);
   });
 });
