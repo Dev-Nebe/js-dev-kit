@@ -1,3 +1,8 @@
-const firstFunction = () => true;
+/* eslint-disable import/no-extraneous-dependencies */
+import './index.css';
 
-module.exports = firstFunction;
+import numeral from 'numeral';
+
+const courseValue = numeral(1000).format('$0,0.00');
+
+console.log(`I would pay ${courseValue} for this awesome course!`);
